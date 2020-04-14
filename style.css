@@ -1,5 +1,5 @@
 :root {
-    --gray-color: rgba(245, 240, 240, 0.897);
+    --gray-color: #F2F2F2;
 }
 body{
     font-family: Arial, sans-serif;
@@ -81,16 +81,55 @@ li a{
     justify-content: center;
     margin: 20px;
 }
-#buttons li .button{
+#buttons li input{
     background-color: var(--gray-color);
     margin: 0px 7px;
     border-radius: 2px;
     padding: 10px 17px;
     z-index: 2;
 }
-footer {
+#fbar {
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
     background-color: var(--gray-color);
+    margin-left: -22px;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px; 
+    font-size: 14px;
+}
+html{
+    margin: 0px;
+}
+#fsr{
+    float:right;
+    white-space: nowrap;
+    margin-right: 30px;
+    color: #222;
+}
+#fsr a{
+    display: inline-block;
+    color:#5f6368;
+    margin: 0px !important;
+    padding-left: 27px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+a:visited{
+    color:#222;
+}
+#fsl{
+    float:lest;
+    white-space: nowrap;
+    margin-left: 30px;
+    color: #222;
+}
+#fsl a{
+    display: inline-block;
+    color:#5f6368;
+    margin: 0px !important;
+    padding-left: 27px;
+    text-decoration: none;
+    white-space: nowrap;
 }
