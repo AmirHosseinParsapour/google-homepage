@@ -5,18 +5,41 @@
         <link rel="stylesheet" href="./style.css" type="text/css">
     </head>
     <body>
-        <div id="main">
-            <figure><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" class="image logo"/></figure>
-            <br>
-            <form id="search-form">
-                <label for="search-box">Search:</label>
-                <br>
-                <input type="text" id="search-box">
-                <div id="buttons">
-                <input type="submit" value="Go!">
-                <input type="submit" value="I'm feeling Lucky">
-                </div>
-            </form>
-        </div>
+        <header>
+            <nav>
+                <ul  id="nav-bar">
+                    <li class="left"><a href="#">About</a></li>
+                    <li class="left"><a href="#">Store</a></li>
+                    <li class="right" id="sign-in"><a href="#">Sign In</a></li>
+                    <li class="right"><figure><img src="./dots.png" alt=""></figure></li>
+                    <li class="right"><a href="#">Images</a></li>
+                    <li class="right"><a href="#">Gmail</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo" class="image logo">
+            <div id="search">
+                <form action="https://google.com/search">
+                    <div id="bar">
+                        <input type="text" name="q">
+                    </div>
+                    <ul id=buttons>
+                        <li><input type="submit" value="Google Search" id="go"></button></li>
+                        <li><input type="submit" value="I'm Feeling Lucky" id="luck"></button></li>
+                    </ul>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li class="left"><a href="">Advertising</a></li>
+                <li class="left"><a href="">Business</a></li>
+                <li class="left"><a href="">How Search Works</a> </li>
+                <li class="right"><a href="">Privacy</a></li>
+                <li class="right"><a href="">Terms</a></li>
+                <li class="right"><a href="">Settings</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
